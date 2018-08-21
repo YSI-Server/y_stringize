@@ -94,16 +94,16 @@ Optional plugins:
 	#tryinclude "y_stringise\y_stringise_entry"
 #endif
 #if !defined _INC_y_stringise
-	#tryinclude "YSI_Data\y_stringise\y_stringise_entry"
+	#tryinclude "YSI-Data\y_stringise\y_stringise_entry"
 #endif
 #if !defined _INC_y_stringise
-	#tryinclude "YSI\YSI_Data\y_stringise\y_stringise_entry"
+	#tryinclude "YSI\YSI-Data\y_stringise\y_stringise_entry"
 #endif
 #if !defined _INC_y_stringise
-	#tryinclude <YSI_Data\y_stringise\y_stringise_entry>
+	#tryinclude <YSI-Data\y_stringise\y_stringise_entry>
 #endif
 #if !defined _INC_y_stringise
-	#tryinclude <YSI\YSI_Data\y_stringise\y_stringise_entry>
+	#tryinclude <YSI\YSI-Data\y_stringise\y_stringise_entry>
 #endif
 #if !defined _INC_y_stringise
 	#error Could not find y_stringise
